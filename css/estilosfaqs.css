@@ -1,0 +1,20 @@
+h1{
+  margin: 30px;
+  font-size: 30px;
+}
+
+.content_faqs li{
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  list-style: none;
+  box-shadow: 0px 0 5px black;
+}
+
+ul li a{
+  color: black;
+  text-decoration: none;
+}

@@ -1,0 +1,202 @@
+/* --------------------------variables */
+:root{
+--green-color:#7ACC2D;
+--white-color: white;
+--black-color: #313337;
+/* --------------------------tipografia font-size*/
+--normal:12px;
+/* --------------------------espaciado padding */
+--space:10px;
+/* --------------------------sombreado box shadow */
+--box:0px 0 5px #e6e5e9;
+}
+
+html, body{
+  padding: 0px;
+  margin: 0px;
+  font-size: var(--normal);
+  font-family: times new roman;
+}
+
+p,label{
+  font-size: var(--normal);
+}
+
+/* aqui empieza el navbar */
+
+nav{
+  display: flex;
+  background-color: var(--green-color);
+  padding: var(--space);
+  color: var(--white-color);
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  padding-left: 20px;
+  list-style: none;
+}
+nav li a{
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: var(--white-color);
+}
+
+/* aqui termina el navbar  */
+
+/* esta secicon es del home de la web */
+
+/* ------------------------------------Main Section */
+.main_section{
+  padding: 15%;
+  text-align: center;
+}
+
+.products{
+  background-image: url(C:/Users/Gamers/Desktop/E.S.G.R/images/curva.png);
+  height: 30px;
+  background-size: cover;
+  background-position: center top;
+  padding: 20%;
+  display: flex;
+}
+
+.product{
+  padding: var(--space);
+  margin-top: -240px
+}
+
+.product .content{
+  background-color: var(--white-color);
+  padding: 15px;
+  box-shadow:var(--box);
+}
+
+.img_content{
+  text-align: center;
+}
+
+.main_button{
+  background-color: var(--green-color);
+  padding: var(--space);
+  width: 100%;
+  font-size: var(--normal);
+  color: var(--white-color);
+  border: 0px;
+  cursor: pointer;
+}
+
+.main_button:hover{
+  background-color: #5e9e22;
+  border-radius: 5px;
+}
+
+/* aqui termina la primera seccion */
+
+/* aqui empieza la segunda seccion */
+
+.beneficios{
+  display: flex;
+  padding: 5%;
+  text-align: center;
+  background-position: center top;
+}
+
+.beneficio{
+  margin: 100px;
+}
+
+/* aqui termina la segunda seccion */
+
+/* aqui empieza la tercera seccion */
+
+.menciones{
+  display: flex;
+  padding: 5%;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.mencion{
+  margin: 10px;
+  font-size: 12px;
+  box-shadow: 0 0 1px black;
+}
+
+/* aqui termina la tercera seccion y tambien se termina la seccion de del home*/
+
+/*---------------------------------------- aqui empieza la seccion de ventas */
+
+.modulo_pago{
+  background-color: var(--white-color);
+  box-shadow:var(--box);
+  padding: var(--space);
+}
+
+.modulo_pago_image{
+  max-width: 150px;
+  margin: auto;
+}
+
+.data{
+  margin-top: var(--space);
+  width: 100%;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid var(--black-color);
+  box-sizing: border-box;
+}
+
+.modulo_pago .main_button{
+  margin-top: var(--space);
+
+}
+
+
+/*---------------------------------------- aqui termina la seccion de ventas */
+
+/* ----------------------aqui empieza la seccion de los terminos y condiciones */
+
+
+.content_tyc{
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+
+/* ----------------------aqui termina la seccion de los terminos y condiciones*/
+
+/* aqui empieza el footer (pie de pagina) */
+
+footer{
+  background-color: gray;
+  padding: 20px;
+
+}
+
+footer ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 15px;
+}
+
+footer li a{
+  text-decoration: none;
+  color: black;
+}
+
+footer li a:hover{
+  color: white;
+}
+
+/* aqui termina el footer (pie de pagina) */
